@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*========== Hero ============*/
+
+#hero {
+  display: flex;
+  height: 100vh;
+}
+
+#hero > div {
+  width: 40%;
+  display: grid;
+  place-items: center;
+  row-gap: 10px;
+}
+
+#hero > div h1 {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 15px;
+  padding-bottom: 15px;
+  font-family: Lora;
+}
+
+#hero img {
+  width: 60%;
+}
+/*========= Hero END ==========*/
+/*=========== 2nd Section & Nav-Bar ===========*/
+/*----- Nav-Bar------*/
+#second-section {
+}
+
+#second-section header {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  background-color: #2e2e2e;
+  padding-top: 15px;
+}
+
+#logo {
+  width: 6%;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 5%;
+  width: 50%;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Work Sans;
+}
+/*----- Nav-Bar End ----*/
+/*----2nd Section Content-----*/
+
+#second-section article:nth-of-type(1) {
+  display: flex;
+  height: 70%;
+  padding-top: 100px;
+  background-color: #2e2e2e;
+  padding-bottom: 110px;
+}
+
+#second-section article:nth-of-type(1) img {
+  width: 60%;
+}
+
+#second-section article:nth-of-type(1) div {
+  width: 40%;
+
+  padding-top: 100px;
+  color: #fff;
+}
+
+#second-section article:nth-of-type(1) div h2 {
+  font-family: Lora;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+#second-section article:nth-of-type(1) div p {
+  font-family: Work Sans;
+  line-height: 30px;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/*=========== 2nd Article  ===========*/
+
+#second-section article:nth-of-type(2) {
+  padding-top: 120px;
+}
+
+#second-section article:nth-of-type(2) div:nth-of-type(1) {
+  display: grid;
+  place-items: center;
+}
+
+#second-section article:nth-of-type(2) div:nth-of-type(1) h2 {
+  font-family: "Lora";
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+#second-section article:nth-of-type(2) div:nth-of-type(1) p {
+  font-family: Work Sans;
+  width: 30%;
+  line-height: 25px;
+  padding-bottom: 55px;
+}
+
+#pic-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#pic-container img {
+  width: 30%;
+}
+
+#video {
+  width: 455px;
+  height: 340px;
+  margin: auto ;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+/*=========== 2nd Article END ===========*/
+/*=========== 3rd Article  ===========*/
+
+footer {
+  display: flex;
+  background-color: #2e2e2e;
+  padding-bottom: 10px;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+footer div:nth-of-type(1) {
+  padding-left: 7%;
+
+  padding-top: 100px;
+  width: 50%;
+}
+
+footer div:nth-of-type(1) h2 {
+  color: #fff;
+  font-family: Lora;
+  justify-self: start;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+footer div:nth-of-type(1) p {
+  color: #fff;
+  font-family: Work Sans;
+  width: 60%;
+  padding: 20px 0;
+  line-height: 30px;
+}
+footer div:nth-of-type(2) {
+  width: 50%;
+}
+/*=========== Form ===========*/
+#name {
+  display: block;
+  width: 55%;
+  height: 25px;
+}
+#massage {
+  display: block;
+  width: 55%;
+  height: 25px;
+}
+#email {
+  display: block;
+  width: 55%;
+  height: 25px;
+}
+
+.label {
+  color: #fff;
+  font-family: Lora;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#form {
+  padding-top: 100px;
+  width: 80%;
+  padding-left: 5%;
+}
+
+#btn {
+  width: 15%;
+  padding: 5px 6px;
+  margin-top: 25px;
+}
+
+/*============ Copyright =======*/
+
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Lora;
+  background-color: #1d2c2f;
+  padding: 20px 0;
+  padding-left: 4%;
+}
+
+#copyright div {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
